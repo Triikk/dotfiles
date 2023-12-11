@@ -39,13 +39,11 @@ def move(src : str, dst: str) -> None:
 
 
 if __name__ == "__main__":
-
     parser = argparse.ArgumentParser()
-    parser.add_argument("-i", "--install", default=False, action="store_true")
-    parser.add_argument("-u", "--update", default=False, action="store_true")
-    parser.add_argument("-d", "--debug", default=False, action="store_true")
-    parser.add_argument("-dir", "--directory", "--destination", type=str, default=os.curdir)
-
+    parser.add_argument("-i", "--install", default=False, action="store_true", help="install configuration from the specified directory to home directory")
+    parser.add_argument("-l", "--load", default=False, action="store_true", help="load configuration from home directory to the specified directory")
+    parser.add_argument("-dir", "--directory", type=str, default=os.curdir, help="directory used to load /install configuration from/to")
+    parser.add_argument("-d", "--debug", default=False, action="store_true", help="print what the script would do if executed without executing it")
     args = vars(parser.parse_args())
    
     if args["debug"]:
@@ -53,6 +51,9 @@ if __name__ == "__main__":
     else:
         DEBUG = False
     if args["install"]:
-        move(HOME_DIR, args["dir"])
+        move(args["directory"], HOME_DIR)
+    elif args["load"]:
+        move(HOME_DIR, args["directory"])
     else:
-        move(os.curdir, HOME_DIR)
+        print("Action (install/load) must be specified)", file=sys.stderr)
+        sys.exit(1)
