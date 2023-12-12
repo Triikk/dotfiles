@@ -1,4 +1,4 @@
-" NERDTree shortcuts
+" NERDTree
 nnoremap <C-b> :NERDTreeToggle<CR>
 
 " move line of text using CTRL+[jk]
@@ -23,6 +23,15 @@ set number
 set relativenumber
 set tabstop=4
 set shiftwidth=4
+set nocompatible
+set nowrap
+
+filetype on
+filetype plugin on
+filetype indent on
+
+set cursorline
+"set cursorcolumn
 
 " plugins
 call plug#begin()
