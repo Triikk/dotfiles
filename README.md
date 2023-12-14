@@ -25,5 +25,6 @@ chmod u+x ./main.py
 + [urxvt](http://software.schmorp.de/pkg/rxvt-unicode.html) (terminal emulator)
 + [neofetch](https://github.com/dylanaraps/neofetch) (system information tool)
 + [dunst](https://dunst-project.org/) (notification daemon)
++ [bat](https://github.com/sharkdp/bat) (cat clone)
 
 I also use [XWayland](https://wayland.freedesktop.org/xserver.html) for compatibility with some X applications.
