@@ -6,9 +6,9 @@ The script `main.py` can be used to install a configuration on your local machin
 ```shell
 chmod u+x ./main.py
 
-" install your configuration (load from current dir to home dir)
+# install your configuration (load from current dir to home dir)
 ./main.py --install 
-" load your configuration in a specified directory (load from home dir to specified dir)
+# load your configuration in a specified directory (load from home dir to specified dir)
 ./main.py --load --directory=$HOME/tmp
 ```
 
