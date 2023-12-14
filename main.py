@@ -8,7 +8,7 @@ import sys
 HOME_DIR = "/home/kyoma"
 PATHS : dict[str, list[str]] = {
     "" : [".vimrc", ".bashrc", ".bash_profile", ".Xdefaults"],
-    ".config": ["gammastep", "neofetch", "sway", "waybar"],
+    ".config": ["gammastep", "neofetch", "sway", "waybar", "bat"],
     ".vim": ["coc-settings.json", "config"],
 }
 DEBUG : bool
