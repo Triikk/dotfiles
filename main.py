@@ -8,7 +8,7 @@ import sys
 HOME_DIR = os.environ.get("HOME")
 PATHS : dict[str, list[str]] = {
     "" : [".vimrc", ".bashrc", ".bash_profile", ".Xdefaults"],
-    ".config": ["gammastep", "neofetch", "sway", "waybar", "bat"],
+    ".config": ["gammastep", "neofetch", "sway", "waybar", "bat", "gdb"],
     ".vim": ["coc-settings.json", "config"],
 }
 DEBUG : bool
