@@ -15,6 +15,10 @@
 			"command": "rust-analyzer",
 			"filetypes": ["rust", "rs"],
 			"rootPatterns": ["Cargo.toml"]
+		},
+		"assembly": {
+			"command": "asm-lsp",
+			"filetypes": ["asm", "s", "S"]
 		}
 	}	
 }
