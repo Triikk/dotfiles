@@ -14,6 +14,10 @@ endif
 
 set encoding=utf-8
 
+" navigation
+nnoremap <right> gt
+nnoremap <left> gT
+
 " colorscheme
 set background=dark
 colorscheme gruvbox
