@@ -29,6 +29,7 @@ set tabstop=4
 set shiftwidth=4
 set nocompatible
 set nowrap
+set mouse=a
 
 filetype on
 filetype plugin on
