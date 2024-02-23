@@ -14,3 +14,4 @@ sudo pacman -S dunst
 sudo pacman -S bat
 sudo pacman -S gdb
 sudo pacman -S python
+sudo pacman -S xorg-xwayland
