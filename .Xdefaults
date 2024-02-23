@@ -1,6 +1,6 @@
 !URxvt------------------------
 URxvt.font:  xft:Fira Code Nerd Font Mono:size=14, xft:ubuntu mono:pixelsize=16, xft:xos4 Terminus:Regular:size=24, xft:Font Awesome 5 Free-Regular-400:size=14, xft:FontAwesome:size=12
-urxvt*termName: 		rxvt
+urxvt*termName: 		alacritty
 urxvt*scrollBar: 		false
 urxvt*matcher.button: 		1
 ! https://ctkarch.org/documentation/tutorials/tuto.php?page=urxvt-transpa.xml&en transparency
