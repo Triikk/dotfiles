@@ -22,7 +22,7 @@ chmod u+x ./main.py
 + [vim](https://www.vim.org) (text editor)
 + [bash](https://www.gnu.org/software/bash/) (shell)
 + [powerline](https://powerline.readthedocs.io/en/latest/) (status line)
-+ [urxvt](http://software.schmorp.de/pkg/rxvt-unicode.html) (terminal emulator)
++ [alacritty](https://alacritty.org) (terminal emulator)
 + [neofetch](https://github.com/dylanaraps/neofetch) (system information tool)
 + [dunst](https://dunst-project.org/) (notification daemon)
 + [bat](https://github.com/sharkdp/bat) (cat clone)
