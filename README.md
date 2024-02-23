@@ -19,7 +19,7 @@ chmod u+x ./main.py
 + [waybar](https://github.com/Alexays/Waybar) (status bar)
 + [wofi](https://hg.sr.ht/~scoopta/wofi) (launcher/menu)
 + [gammastep](https://gitlab.com/chinstrap/gammastep) (color temperature)
-+ [vim](https://www.vim.org) (text editor)
++ [neovim](https://www.neovim.io) (text editor)
 + [bash](https://www.gnu.org/software/bash/) (shell)
 + [powerline](https://powerline.readthedocs.io/en/latest/) (status line)
 + [alacritty](https://alacritty.org) (terminal emulator)
