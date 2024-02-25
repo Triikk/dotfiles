@@ -21,7 +21,7 @@ chmod u+x ./main.py
 + [gammastep](https://gitlab.com/chinstrap/gammastep) (color temperature)
 + [neovim](https://www.neovim.io) (text editor)
 + [bash](https://www.gnu.org/software/bash/) (shell)
-+ [powerline](https://powerline.readthedocs.io/en/latest/) (status line)
++ [powerline-shell](https://github.com/b-ryan/powerline-shell) (shell status line)
 + [alacritty](https://alacritty.org) (terminal emulator)
 + [neofetch](https://github.com/dylanaraps/neofetch) (system information tool)
 + [dunst](https://dunst-project.org/) (notification daemon)

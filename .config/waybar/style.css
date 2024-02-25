@@ -1,7 +1,7 @@
 * {
     border: none;
     border-radius: 0px;
-    font-family: "Inconsolata";
+    font-family: "FiraCode Nerd Font";
     font-size: 16px;
     min-height: 0;
     color: #ebdbb2;
@@ -9,7 +9,7 @@
 
 window#waybar {
     border-bottom-style: inset;
-    border-bottom: 4px solid #458588;
+    border-bottom: 4px solid #076678;
     background: #282828;
 }
 
@@ -19,13 +19,13 @@ window#waybar {
 
 /* Workspace Buttons */
 #workspaces button label{
-    color: #458588;
+    color: #076678;
 }
 #workspaces button.focused label {
     color: #282828;
 }
 #workspaces button.focused {
-    background: #458588; 
+    background: #076678; 
 }
 
 #mode {
@@ -44,23 +44,23 @@ window#waybar {
 }
 
 #idle_inhibitor.activated {
-    background-color: #458588;
+    background-color: #076678;
     color: #282828;
 }
 
 
 #custom-music {
-    color: #458588;
+    color: #076678;
     margin: 0 15px;
     padding: 0 20px;
-    border-bottom: 4px solid #458588;
+    border-bottom: 4px solid #076678;
 
 }
 
 #clock {
     margin: 0;
     color: #fbf1c7;
-    border-bottom: 4px solid #458588;
+    border-bottom: 4px solid #076678;
 }
 
 

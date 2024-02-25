@@ -21,3 +21,7 @@ style = "Italic"
 [font.normal]
 family = "FiraCode Nerd Font"
 style = "Regular"
+
+[colors]
+[colors.primary]
+foreground = "#ebdbb2"

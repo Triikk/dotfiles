@@ -32,6 +32,9 @@ output * bg ~/wallpapers/landscape.png fill
 set $monitor1 HDMI-A-2
 set $monitor2 HDMI-A-1
 set $monitor3 DP-2
+bindsym $mod+Alt+1 output $monitor1 toggle;
+bindsym $mod+Alt+2 output $monitor2 toggle;
+bindsym $mod+Alt+3 output $monitor3 toggle;
 
 # positioning
 output $monitor1 resolution 1920x1080 position 0,0
@@ -41,11 +44,6 @@ output $monitor3 resolution 1920x1080 position 3840,0
 workspace 1 output $monitor1
 workspace 2 output $monitor2
 workspace 3 output $monitor3
-# turn on/off external monitors
-bindsym $mod+m output $monitor1 toggle; output $monitor3 toggle;
-bindsym $mod+Alt+1 output $monitor1 toggle;
-bindsym $mod+Alt+2 output $monitor2 toggle;
-bindsym $mod+Alt+3 output $monitor3 toggle;
 
 # screenshots (https://www.reddit.com/r/swaywm/comments/bb4dam/take_screenshot_to_clipboard/)
 bindsym Print exec grim -g "$(slurp)"
