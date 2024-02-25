@@ -43,6 +43,9 @@ workspace 2 output $monitor2
 workspace 3 output $monitor3
 # turn on/off external monitors
 bindsym $mod+m output $monitor1 toggle; output $monitor3 toggle;
+bindsym $mod+Alt+1 output $monitor1 toggle;
+bindsym $mod+Alt+2 output $monitor2 toggle;
+bindsym $mod+Alt+3 output $monitor3 toggle;
 
 # screenshots (https://www.reddit.com/r/swaywm/comments/bb4dam/take_screenshot_to_clipboard/)
 bindsym Print exec grim -g "$(slurp)"
@@ -230,3 +233,4 @@ bar {
 }
 
 include /etc/sway/config.d/*
+include ~/.config/sway/config.d/*
