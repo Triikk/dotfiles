@@ -3,6 +3,7 @@
 sudo pacman -Syu
 
 sudo pacman -S sway
+sudo pacman -S swaybg
 sudo pacman -S waybar
 sudo pacman -S wofi
 sudo pacman -S gammastep
