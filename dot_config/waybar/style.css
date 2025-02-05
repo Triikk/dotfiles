@@ -1,0 +1,77 @@
+* {
+    border: none;
+    border-radius: 0px;
+    font-family: "FiraCode Nerd Font";
+    font-size: 16px;
+    min-height: 0;
+    color: #ebdbb2;
+}
+
+window#waybar {
+    border-bottom-style: inset;
+    border-bottom: 4px solid #076678;
+    background: #282828;
+}
+
+#workspaces, #clock, #custom-music, #window { 
+    font-weight: 400;
+}
+
+/* Workspace Buttons */
+#workspaces button label{
+    color: #076678;
+}
+#workspaces button.focused label {
+    color: #282828;
+}
+#workspaces button.focused {
+    background: #076678; 
+}
+
+#mode {
+    background-color: #cc241d;
+    color: white;
+}
+
+#clock, #battery, #cpu, #memory, #network, #pulseaudio, #tray, #mode, #idle_inhibitor {
+    padding: 0 5px;
+    margin: 0 10px;
+}
+
+
+#idle_inhibitor {
+    padding: 0 10px;
+}
+
+#idle_inhibitor.activated {
+    background-color: #076678;
+    color: #282828;
+}
+
+
+#custom-music {
+    color: #076678;
+    margin: 0 15px;
+    padding: 0 20px;
+    border-bottom: 4px solid #076678;
+
+}
+
+#clock {
+    margin: 0;
+    color: #fbf1c7;
+    border-bottom: 4px solid #076678;
+}
+
+
+#network.disconnected {
+    color: #cc241d;
+    border-bottom: 4px solid #cc241d;
+}
+
+
+#pulseaudio.muted {
+    padding: 0 20px;
+    color: #cc241d;
+    border-bottom: 4px solid #cc241d;
+}
