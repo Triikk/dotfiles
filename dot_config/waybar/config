@@ -49,7 +49,9 @@
     "network": {
         "interval": 1,
         "format": "{ifname} {ipaddr}",
-        "tooltip-format": "down {bandwidthDownBytes} up {bandwidthUpBytes}",
+        "format-ethernet": "eth {bandwidthTotalBytes}",
+        "format-wifi": "{essid} {signalStrength} {bandwidthTotalBytes}",
+        "tooltip-format": "{ifname} {ipaddr} down {bandwidthDownBytes} up {bandwidthUpBytes}",
         "format-disconnected": "disconnected",
         "on-click": "nm-connection-editor",
     },
