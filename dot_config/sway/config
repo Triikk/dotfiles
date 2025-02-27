@@ -52,6 +52,15 @@ focus_follows_mouse no
 bindsym Print exec grim -g "$(slurp)"
 bindsym Shift+Print exec grim -o $(swaymsg -t get_outputs | jq -r '.[] | select(.focused) | .name')
 
+# brightness
+bindsym XF86MonBrightnessDown exec brightnessctl set 10%-
+bindsym XF86MonBrightnessUp exec brightnessctl set 10%+
+
+# audio https://www.reddit.com/r/swaywm/comments/qei3oh/how_can_i_set_up_keybindgs_with_sway_for_volume/
+bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
+
 #
 # You can get the names of your outputs by running: swaymsg -t get_outputs
 
